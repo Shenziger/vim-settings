@@ -64,28 +64,28 @@ macOS version
 - run python script: `<F5>`
 - paste toggle: `<F7>`
 - lint fix: `<F8>`
-- wrap `"`/`'` for a word: `\w"`/`\w'`
+- wrap `"`/`'` for a word: `<leader>w"`/`<leader>w'`
 - uppercase/lowercase toggle with a `_` prefix: `!`
 - delete current letter and toggle uppercase/lowercase: `@`
 - continue indent text to left or right on select/normal mode: `>` `<`
 - switch window: `<C-HJKL>`
 - resize window: `<C-UpDownLeftRightEnter>`
-- close quickfix window: `\q`
-- find files: `\f`
-- find mru files: `\m`
+- close quickfix window: `<leader>q`
+- find files: `<leader>f`
+- find mru files: `<leader>m`
 - complete python code: `<C-n>`
 - format json line: `<leader>wj` `<leader>pj`
 - change surround: `csXY`
 - del surround: `dsX`
-- comment/uncomment: `\cc`/`\cu`
-- table mode: `\tm`
-- build gofile: `\gb`
-- run gofile: `\gr`
-- run go test: `\gt`
+- comment/uncomment: `<leader>cc`/`<leader>cu`
+- table mode: `<leader>tm`
+- build gofile: `<leader>gb`
+- run gofile: `<leader>gr`
+- run go test: `<leader>gt`
 - code complete: `<c-z>`
-- write vimwiki: `\ww`
+- write vimwiki: `<leader>ww`
 - expand snips: `<c-e>`
-- change random colorscheme: `\c`
+- change random colorscheme: `<leader>c`
 
 ### Features
 
@@ -107,7 +107,7 @@ macOS version
 - use tomorrow-night-bright color scheme
 - color preview for .css files
 - auto format markdown tables in table mode
-- auto choice randome colorscheme, use <leader>c can change the theme
+- auto choice random colorscheme, use `<leader>c` can change the theme
 
 ### Screenshots
 
