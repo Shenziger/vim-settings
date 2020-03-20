@@ -107,7 +107,7 @@ macOS version
 - use tomorrow-night-bright color scheme
 - color preview for .css files
 - auto format markdown tables in table mode
-- auto choice random colorscheme, use `<leader>c` can change the theme
+- auto choice random colorscheme, use `<leader>c` or `:CSnext` can change the theme, `:Hate` to let the colorscheme be used again
 
 ### Screenshots
 
