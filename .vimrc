@@ -463,3 +463,6 @@ let g:echodoc_enable_at_startup = 1
 
 " utilsnips
 let g:UltiSnipsExpandTrigger = "<c-e>"
+
+" random-colorscheme-picker
+let g:colorscheme_user_path = '~/.vim/plugged/favorite-vim-colorscheme/colors'
