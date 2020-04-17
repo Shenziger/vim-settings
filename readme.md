@@ -108,6 +108,7 @@ macOS version
 - color preview for .css files
 - auto format markdown tables in table mode
 - auto choice random colorscheme, use `<leader>c` or `:CSnext` can change the theme, `:Hate` to let the colorscheme be used again
+- Automatically wrap spaces for English words and numbers in Chinese when saving file.
 
 ### Screenshots
 
