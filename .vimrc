@@ -146,7 +146,7 @@ autocmd BufWritePre * :%s/\s\+$//e
 autocmd BufWritePre * :%s/^$\n\+\%$//ge
 
 " 保存文件时自动对中文中的英文单词和数字添加空格
-autocmd BufWritePre * silent! :%s/[^\x00-\xff]\zs\ze\w\|\w\zs\ze[^\x00-\xff]/ /g
+" autocmd BufWritePre * silent! :%s/[^\x00-\xff]\zs\ze\w\|\w\zs\ze[^\x00-\xff]/ /g
 
 " 填充 Tab
 set expandtab
@@ -235,6 +235,9 @@ nnoremap <F8> :ALEFix<CR>
 
 " <F9> format json
 nnoremap <F9> :%!python -m json.tool<CR>
+
+" <F10> 中文中夹杂的英文和数字添加空格(注意\\| " 在 map 里面需要转义，直接执行使用\|)
+nnoremap <F10> :%s/[^\x00-\xff]\zs\ze\w\\|\w\zs\ze[^\x00-\xff]/ /g<CR>
 
 " 给当前单词添加引号
 nnoremap w" viw<esc>a"<esc>hbi"<esc>lel

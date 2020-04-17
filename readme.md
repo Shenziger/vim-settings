@@ -64,6 +64,8 @@ macOS version
 - run python script: `<F5>`
 - paste toggle: `<F7>`
 - lint fix: `<F8>`
+- format current json content: `<F9>`
+- Automatically wrap spaces for English words and numbers in Chinese: `<F10>`
 - wrap `"`/`'` for a word: `<leader>w"`/`<leader>w'`
 - uppercase/lowercase toggle with a `_` prefix: `!`
 - delete current letter and toggle uppercase/lowercase: `@`
@@ -108,7 +110,6 @@ macOS version
 - color preview for .css files
 - auto format markdown tables in table mode
 - auto choice random colorscheme, use `<leader>c` or `:CSnext` can change the theme, `:Hate` to let the colorscheme be used again
-- Automatically wrap spaces for English words and numbers in Chinese when saving file.
 
 ### Screenshots
 
